@@ -568,7 +568,7 @@ p {
 
 .roadmap-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
 
@@ -584,12 +584,18 @@ p {
 }
 
 .highlighted p,
-.highlighted-alt p {
+.highlighted-alt p,
+.highlighted-tri p {
   color: rgba(255, 255, 255, 0.78);
 }
 
 .highlighted-alt {
   background: #243f60;
+  color: var(--white);
+}
+
+.highlighted-tri {
+  background: var(--teal);
   color: var(--white);
 }
 
